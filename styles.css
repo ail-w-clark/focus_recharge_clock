@@ -1,0 +1,33 @@
+#container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.session-theme {
+    background-color: white;
+    color: black;
+}
+
+.break-theme {
+    background-color: lightblue;
+    color: black;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#time-left {
+    font-size: 48px;
+    margin: 20px;
+}
+
+#timer-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+

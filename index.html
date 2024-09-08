@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus/Recharge Interval Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Focus/Recharge Interval Clock</h1>
+        <div id="break-label">Recharge Length</div>
+        <div id="break-length">17</div>
+        <button id="break-decrement">-</button>
+        <button id="break-increment">+</button>
+
+        <div id="session-label">Focus Length</div>
+        <div id="session-length">52</div>
+        <button id="session-decrement">-</button>
+        <button id="session-increment">+</button>
+
+        <div id="timer-label">Time to Focus</div>
+        <div id="time-left">52</div>
+
+        <button id="start_stop">Start</button>
+        <button id="reset">Reset</button>
+
+        <audio id="beep" src="https://bigsoundbank.com/UPLOAD/mp3/2880.mp3" type="audio/mpeg"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
